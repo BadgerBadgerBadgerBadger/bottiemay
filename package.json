@@ -17,9 +17,13 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^4.3.4"
+    "hubot-slack": "^4.3.4",
+    "hubot-inhumanity": "^1.0.1"
+  },
+  "scripts": {
+    "start": "./bin/hubot --adapter slack"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "7.6.0"
   }
 }
